@@ -1,0 +1,12 @@
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.wrapper div:nth-child(even){
+  background: red;
+}
+
+.wrapper div:nth-child(odd){
+  background: green;
+}
